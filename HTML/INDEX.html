@@ -2,6 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        html {
+            scroll-behavior: smooth; /* smooth scrolling */
+        }
+
+        /* Style the bottom link */
+        .top-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .top-link:hover {
+            text-decoration: underline;
+        }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -23,6 +42,86 @@
         The <abbr title="World Health Organization">WHO</abbr> recommends the formula 
         for area of a square: A = b<sup>2</sup>, where b<sub>1</sub> is the base of the square.
     </p>
-</body>
+    <hr>
+    <p style="font-size:18px;">
+  The term <abbr title="HyperText Markup Language">HTML</abbr> allows writing formulas like H<sub>2</sub>O and A<sup>2</sup>. 
+  Here is a <s style="color:red;">billing amount is incorrect</s> corrected statement. 
+  <span style="font-family:'Courier New', monospace; color:blue;">Date: 01-12-2025</span>
+</p>
+<hr>
+<br>
+<h3>Code:</h3>
+<pre><code>
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+</code></pre>
+
+<h3>Output:</h3>
+<pre>Hello, World!</pre><br>
+<hr>
+<br>
+<ul>
+    <li><a href="#chapter1">Chapter 1</a></li>
+    <li><a href="#chapter2">Chapter 2</a></li>
+</ul>
+<br>
+<hr>
+<br>
+<h3>Unordered List</h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<br>
+<hr>
+<br>
+<h3>Ordered List</h3>
+<ol>
+    <li>Step 1: Install Node.js</li>
+    <li>Step 2: Install VS Code</li>
+    <li>Step 3: Start a new project</li>
+</ol>
+<br>
+<hr>
+<br>
+<dl>
+<dt><b>HTML :</b></dt>
+    <dd>HyperText Markup Language – used to structure webpages.</dd>
+
+    <dt><b>CSS :</b></dt>
+    <dd>Cascading Style Sheets – used for styling webpages.</dd>
+</dl>
+<br>
+<hr>
+<h2>Chapters</h2>
+
+<hr>
+
+<!-- Chapter 1 Section -->
+<h2 id="chapter1">Chapter 1</h2>
+<p>
+    This is the content of Chapter 1.  
+    Add your full text here...
+</p>
+
+<!-- Add some space for scrolling -->
+<br><br><br><br><br>
+
+<!-- Chapter 2 Section -->
+<h2 id="chapter2">Chapter 2</h2>
+<p>
+    This is the content of Chapter 2.  
+    Add your details here...
+</p>
+<br>
+<hr>
+<br>
+<a href="#top" class="top-link">Back to Top</a>
+<br>
 </body>
 </html>
