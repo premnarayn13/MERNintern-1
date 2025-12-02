@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.table-container {
+    width: 90%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+caption {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+thead th {
+    background: #e8e8e8;
+    color: #111;
+    padding: 10px;
+    border: 8px solid #ccc;
+    font-weight: 600;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Light zebra striping */
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Subtle hover */
+tbody tr:hover {
+    background: #ececec;
+}
+
+/* Table footer */
+tfoot td {
+    background: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+}

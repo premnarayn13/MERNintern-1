@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formal Table</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        th, td {
+            border: 1px solid #cccccc;  /* light grey lines */
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e8f0fe; /* very light blue */
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* light shade for alternating rows */
+        }
+
+        caption {
+            caption-side: top;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Employee Information Table</caption>
+
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Employee Name</th>
+                <th>Department</th>
+                <th>Designation</th>
+                <th>Email</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Prem Kumar</td>
+                <td>HR</td>
+                <td>Executive</td>
+                <td>prem@example.com</td>
+                <td>9876543210</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Anjali Singh</td>
+                <td>Finance</td>
+                <td>Senior Analyst</td>
+                <td>anjali@example.com</td>
+                <td>8765432109</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rahul Verma</td>
+                <td>Development</td>
+                <td>Software Engineer</td>
+                <td>rahul@example.com</td>
+                <td>7654321098</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Meera Das</td>
+                <td>Marketing</td>
+                <td>Team Lead</td>
+                <td>meera@example.com</td>
+                <td>6543210987</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Ravi Kumar</td>
+                <td>Support</td>
+                <td>Technical Staff</td>
+                <td>ravi@example.com</td>
+                <td>5432109876</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Sonali Rao</td>
+                <td>Admin</td>
+                <td>Office Manager</td>
+                <td>sonali@example.com</td>
+                <td>4321098765</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Deepak Nair</td>
+                <td>Research</td>
+                <td>Scientist</td>
+                <td>deepak@example.com</td>
+                <td>3210987654</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Harini Raj</td>
+                <td>QA</td>
+                <td>Tester</td>
+                <td>harini@example.com</td>
+                <td>2109876543</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Sandeep Mehta</td>
+                <td>Logistics</td>
+                <td>Coordinator</td>
+                <td>sandeep@example.com</td>
+                <td>1098765432</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Kavya S</td>
+                <td>Design</td>
+                <td>UI/UX Designer</td>
+                <td>kavya@example.com</td>
+                <td>9988776655</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="6">End of Employee Data</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

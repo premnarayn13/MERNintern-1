@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MAIN HEADING -->
+    <h1 class="main-title">DAY-2</h1>
+
+    <!-- SCROLLING MARQUEE -->
+    <div class="marquee-container">
+        <div class="marquee-text">
+            Virat Kohli – The GOAT of modern cricket! ⚡ Master of chases, King of Consistency, Captain Courageous, Records Crusher, Unstoppable Legend! 👑🏏
+        </div>
+    </div>
+
+    <!-- PARAGRAPH BOX -->
+    <div class="content-box">
+        <p>
+            Lorem ipsum <b>bold text</b>, <i>italic text</i>, <u>underlined text</u>,
+            <mark>highlighted text</mark>, <abbr title="World Health Organization">WHO</abbr> etc.
+            <br><br>
+            Chemical formula example: H<sub>2</sub>O  
+            <br>
+            Power example: X<sup>2</sup>  
+            <br>
+            Inline code: <code>console.log("Hello")</code>
+            <br>
+            Quote example:
+            <blockquote>"Success is no accident."</blockquote>
+        </p>
+    </div>
+
+    <br><hr><br>
+
+    <!-- SAME-PAGE LINKS -->
+    <h2 class="section-title">Opened in Same Page</h2>
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID" class="link">▶ Watch on YouTube</a>
+    <br><br>
+    <a href="https://www.windy.com" class="link">🌐 Browser Link</a>
+
+    <br><hr><br>
+
+    <!-- NEW TAB LINKS -->
+    <h2 class="section-title">Opened in New Tab</h2>
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank" class="link2">▶ Watch on YouTube (New Tab)</a>
+    <br><br>
+    <a href="https://www.windy.com" target="_blank" class="link2">🌐 Browser Link (New Tab)</a>
+
+    <br><hr><br>
+
+    <!-- DIRECT IMAGE LINK -->
+    <a href="https://i0.wp.com/battingwithbimal.com/wp-content/uploads/2019/01/ViratKohliEnglandvIndiaSpecsavers3rdKwZrWu1BUBox.jpg?ssl=1"
+       class="img-link">
+        🖼 Image Link (Same Tab)
+    </a>
+
+    <br><hr><br>
+
+    <!-- CENTER IMAGE -->
+    <div class="image-card">
+        <img src="https://i0.wp.com/battingwithbimal.com/wp-content/uploads/2019/01/ViratKohliEnglandvIndiaSpecsavers3rdKwZrWu1BUBox.jpg?ssl=1"
+             class="main-img">
+
+        <a href="https://i0.wp.com/battingwithbimal.com/wp-content/uploads/2019/01/ViratKohliEnglandvIndiaSpecsavers3rdKwZrWu1BUBox.jpg?ssl=1"
+           class="image-title">
+            Image from Edgbaston Test (2018)
+        </a>
+    </div>
+
+    <br><hr><br>
+
+    <!-- VIDEO SECTION -->
+    <div class="video-card">
+        <iframe width="500" height="300"
+                src="https://www.youtube.com/embed/t02t381Itm4"
+                class="video"
+                allowfullscreen>
+        </iframe>
+
+        <h1 class="video-heading">149 Knock Highlights</h1>
+
+        <hr><br>
+
+        <h1>LOCAL IMAGE → If Not Found → Load Online Image</h1>
+
+        <img src="images/VKimage.jpg"
+             onerror="this.onerror=null; this.src='https://i0.wp.com/battingwithbimal.com/wp-content/uploads/2019/01/ViratKohliEnglandvIndiaSpecsavers3rdKwZrWu1BUBox.jpg?ssl=1';"
+             class="local-img">
+
+        <h3 class="img-caption">Virat Kohli – Indian Cricketer</h3>
+
+        <p class="info-text">
+            One of the greatest batsmen in modern cricket, known for his consistency,
+            aggressive style, and match-winning ability.
+        </p>
+    </div>
+
+    <br><hr><br>
+
+    <!-- VIDEO TAG - ALL TYPES -->
+    <div class="video-attributes">
+        <h2>VIDEO TAG – ALL TYPES & ATTRIBUTES</h2>
+
+        <p><b>1. Basic Video:</b></p>
+        <video width="300" controls>
+            <source src="IMAGES\Virat's Counter-attacking 153_ vs South Africa on a Tough Pitch in Centurion, 2018.mp4" type="video/mp4">
+        </video>
+
+        <p><b>2. Autoplay + Muted (required for autoplay):</b></p>
+        <video width="300" autoplay muted loop>
+            <source src="IMAGES\Virat's Counter-attacking 153_ vs South Africa on a Tough Pitch in Centurion, 2018.mp4" type="video/mp4">
+        </video>
+
+        <p><b>3. Poster (thumbnail before play):</b></p>
+        <video width="300" controls poster="thumbnail.jpg">
+            <source src="IMAGES\Virat's Counter-attacking 153_ vs South Africa on a Tough Pitch in Centurion, 2018.mp4" type="video/mp4">
+        </video>
+
+        <ul>
+            <li><b>controls:</b> show play/pause buttons</li>
+            <li><b>autoplay:</b> video plays automatically</li>
+            <li><b>muted:</b> required for autoplay</li>
+            <li><b>loop:</b> repeats video</li>
+            <li><b>poster:</b> custom thumbnail</li>
+            <li><b>width/height:</b> set video size</li>
+        </ul>
+    </div>
+
+    <!-- LINK TO FORM PAGE -->
+    <p class="form-link-box">
+        <a href="FORM.html" class="form-link">Go to Complete Form Page</a>
+    </p>
+
+</body>
+</html>
